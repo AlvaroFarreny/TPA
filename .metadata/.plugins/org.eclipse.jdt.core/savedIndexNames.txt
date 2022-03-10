@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Datos\UEM INFORMATICA\Segundo\2 Cuatri\TPA\.metadata\.plugins\org.eclipse.jdt.core
+1262440978.index
+3105295453.index
+2823917495.index
+1160884037.index
+1692595556.index
+2833062752.index
