@@ -2,8 +2,12 @@
 public class main {
 
 	public static void main(String[] args) {
-		int arr [][] = {{2,4,9,10},{7,5,1,13},{3,6,12,15},{16,17,21,40}};
-		int numero_buscar = 4;
+		int arr [][] = {{2,4,9,10},
+				{7,5,1,13},
+				{3,6,12,15},
+				{16,17,21,40}};
+		
+		int numero_buscar = 13;
 
 		int arrayresulado[] = {-1,-1};
 		arrayresulado = busqBinariaMatriz(arr, numero_buscar, 0, 0, arr[0].length-1, arr.length-1);
