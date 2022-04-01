@@ -27,7 +27,7 @@ public class Ejercicio2 {
 	public static boolean calcular(int arr1[], int arr2[], int i1, int i2, int f1, int f2) {
 		if (arr1.length != arr2.length) { //comprobamos longitudes
 			return false;
-		} else if (i1==f1 && i2==f2){ // caso cuando el inicio del primero sea igual al final es decir tama´ño 1:1
+		} else if (i1==f1 && i2==f2){ // caso cuando el inicio del primero sea igual al final es decir tamaño 1:1
 			return arr1[i1] == arr2[f2]; //hacemos la comparacion y si es true sera correcta y si no false
 		} else {
 			if (arr1[i1] == arr2[f2]) { //recursividad
